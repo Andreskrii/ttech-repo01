@@ -1,11 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<html>
+    
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hoja de vida de Andrés Pardo Llanos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Andres Pardo Llanos</h1>
+        <p>Administrador</p>
+        <p>andrespardollanos@gmail.com</p>
+        <p>Whatsapp: 3182955225</p>
+    </header>
+
+
+
+    <nav>
+        <span>Indice:</span>
+        <ul>
+            <li><a href="#experiencia">Experiencia Profesional</a></li>
+            <li><a href="#formacion">Formacion Academica</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#tecnologias_conocidas">Tecnologias Conocidas</a></li>
+            <li><a href="#formulario">Contáctame</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li><a href="https://www.libreriafenix.com.co/" target="blank">Libreria Fenix </a> Administrador 1 Año</li>
+        </ul>
+    </section>
+
+    <section id="formacion">
+        <h2>Formación Académica</h2>
+        <ol>
+            <li><a href="https://www.comfenalcovalle.com.co/personas/educacion-y-cultura/primaria-y-bachillerato-2/"
+                    target="blank">ComfenalcoValle </a>Bachiller academico acelerado</li>
+        </ol>
+    </section>
+
+
+
+    <section id="idiomas">
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Español</li>
+            <li>Ingles</li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Idiomas</th>
+                <th>Nivel</th>
+            </tr>
+            <tr>
+                <td>Español</td>
+                <td>Nativo</td>
+            </tr>
+            <tr>
+                <td>Ingles</td>
+                <td>A1</td>
+            </tr>
+        </table>
+
+    </section>
+
+
+
+    <section id="tecnologias_conocidas">
+        <h2>Tecnologías Conocidas</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>GIT</li>
+            <li>Python</li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Tecnología</th>
+                <th>Nivel</th>
+                <th>Año de Conocimiento</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Basico</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>basico</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Basico</td>
+                <td>2018</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="formulario">
+        <h1>Contáctame</h1>
+        <form action="">
+            <fieldset>
+                <legend>Ingrese sus datos:</legend>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="celular">Celular:</label>
+                    <input type="number" name="celular" id="celular" placeholder="Celular" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha_solicitud">Fecha de solicitud:</label>
+                    <input type="date" name="fecha" id="fecha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" rows="5" cols="30" placeholder="Escriba algo aquí"
+                        required></textarea>
+                </div>
+
+                <div class="form-buttons">
+                    <input type="reset" value="Restablecer">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+
 </body>
+
 </html>
