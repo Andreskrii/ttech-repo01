@@ -1,71 +1,71 @@
 /* Estilos Generales del Cuerpo de la Página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Color de fondo general */
-    color: #333; /* Color de texto por defecto */
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
-    padding: 20px; /* Espacio alrededor del contenido principal */
+    padding: 20px;
 }
 
 /* Estilos del Encabezado (Header) */
 header {
-    padding: 20px; /* Espacio dentro del header */
-    margin-bottom: 30px; /* Espacio debajo del header */
-    border-bottom: 1px solid #ccc; /* Línea separadora abajo */
-    text-align: center; /* Centra el contenido del header si quieres */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 
 /* Estilos de los Títulos Principales y Secundarios */
 h1,
 h2 {
-    color: #333; /* Color para todos los h1 y h2 */
-    text-align: center; /* Centra todos los h1 y h2 */
+    color: #333;
+    text-align: center;
 }
 
 /* Estilos de los Párrafos */
 p {
-    font-size: 1rem; /* Tamaño de fuente (1rem es típicamente 16px) */
-    line-height: 1.6; /* Espacio entre líneas para mejor lectura */
-    margin-bottom: 15px; /* Espacio debajo de cada párrafo */
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 /* Estilos Generales de los Enlaces */
 a {
-    color: #007bff; /* Color azul estándar para enlaces */
-    text-decoration: none; /* Quita el subrayado por defecto */
+    color: #007bff;
+    text-decoration: none;
 }
 
 /* Estilos de los Enlaces al pasar el mouse */
 a:hover {
-    text-decoration: underline; /* Vuelve a poner subrayado al pasar mouse */
-    color: #0056b3; /* Azul más oscuro al pasar mouse */
+    text-decoration: underline;
+    color: #0056b3;
 }
 
 /* Estilos de las Tablas */
 table {
-    border-collapse: collapse; /* Fusiona los bordes de las celdas */
-    width: 80%; /* Aumenté el ancho para que se vea mejor, ajusta si quieres */
-    margin: 20px auto; /* Margen arriba/abajo y centra la tabla horizontalmente */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra sutil para la tabla */
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 /* Estilos de las Celdas (Encabezados y Datos) */
 th,
 td {
-    border: 1px solid #ddd; /* Borde gris claro para celdas */
-    padding: 10px; /* Espacio dentro de cada celda */
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 
 /* Estilos de los Encabezados de Tabla */
 th {
-    background-color: #f2f2f2; /* Fondo gris claro para encabezados */
-    color: #555; /* Color de texto para encabezados */
-    text-align: center; /* Centra el texto en los encabezados */
+    background-color: #f2f2f2;
+    color: #555;
+    text-align: center;
 }
 
 /* Estilos de las Celdas de Datos (Texto) */
 td {
-     text-align: left; /* Alinea el texto a la izquierda para mejor lectura */
+     text-align: left;
 }
 
 
@@ -73,36 +73,34 @@ td {
 
 /* Contenedor de Navegación */
 nav {
-    background-color: #c7d5e4; /* Color de fondo para la barra de navegación */
-    border-bottom: 1px solid #ccc; /* Línea divisoria debajo */
-    padding: 10px 0; /* Espacio arriba y abajo dentro de la barra */
-    text-align: center; /* Centra los elementos del menú */
+    background-color: #c7d5e4;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    text-align: center;
 }
 
 /* Lista dentro de la Navegación */
 nav ul {
-    list-style-type: none; /* Quita las viñetas/números */
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    /* Puedes usar display: flex; justify-content: center; para un control más preciso */
 }
 
 /* Ítems de la Lista de Navegación */
 nav li {
-    display: inline-block; /* Pone los ítems en línea */
-    margin-right: 15px; /* Espacio entre los ítems */
-    /* Considera quitar el margin-right del último li si quieres */
+    display: inline-block;
+    margin-right: 15px;
 }
 
 /* Enlaces dentro de la Navegación */
 nav a {
-    display: block; /* Permite aplicar padding correctamente */
-    padding: 8px 12px; /* Espacio dentro de cada enlace */
-    text-decoration: none; /* Quita el subrayado */
-    color: #333; /* Color del texto de los enlaces de navegación */
-    font-size: 1rem; /* Tamaño de fuente */
-    border-radius: 4px; /* Bordes redondeados sutiles */
-    transition: background-color 0.3s ease; /* Transición suave del fondo al pasar mouse */
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 /* Enlaces de Navegación al pasar el mouse */
